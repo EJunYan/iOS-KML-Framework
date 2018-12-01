@@ -74,3 +74,10 @@
 #import <KML/KMLDelete.h>
 #import <KML/KMLVec2.h>
 #import <KML/KMLCoordinate.h>
+
+#import <KML/KMLGXTrack.h>
+#import <KML/KMLWhen.h>
+#import <KML/KMLGXCoordinate.h>
+
+//#import "KMLWhen.h"
+//#import "KMLGXCoordinate.h"

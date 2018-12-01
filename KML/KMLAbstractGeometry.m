@@ -14,6 +14,7 @@
 #import "KMLPolygon.h"
 #import "KMLMultiGeometry.h"
 #import "KMLModel.h"
+#import "KMLGXTrack.h"
 
 @implementation KMLAbstractGeometry
 
@@ -34,6 +35,7 @@
     [array addObject:[KMLPolygon class]];
     [array addObject:[KMLMultiGeometry class]];
     [array addObject:[KMLModel class]];
+    [array addObject:[KMLGXTrack class]];
     return [NSArray arrayWithArray:array];
 }
 

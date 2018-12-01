@@ -48,6 +48,11 @@
     return @"http://www.opengis.net/kml/2.2";
 }
 
+- (NSString *)googleSchema
+{
+    return @"http://www.google.com/kml/ext/2.2";
+}
+
 - (void)setNetworkLinkControl:(KMLNetworkLinkControl *)networkLinkControl
 {
     if (_networkLinkControl != networkLinkControl) {
@@ -124,6 +129,9 @@
     NSMutableString *attribute = [NSMutableString stringWithString:@""];
     if (self.schema) {
         [attribute appendFormat:@" xmlns=\"%@\"", self.schema];
+    }
+    if (self.googleSchema) {
+        [attribute appendFormat:@" xmlns:gx=\"%@\"", self.googleSchema];
     }
     if (self.hint) {
         [attribute appendFormat:@" hint=\"%@\"", self.hint];

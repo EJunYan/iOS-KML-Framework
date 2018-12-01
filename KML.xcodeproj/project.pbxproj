@@ -7,16 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		131D1C591532B900007479F1 /* KML_Samples.kml in Resources */ = {isa = PBXBuildFile; fileRef = 131D1C581532B900007479F1 /* KML_Samples.kml */; };
-		131D1C6F1532BCDB007479F1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 131D1C6E1532BCDB007479F1 /* CoreGraphics.framework */; };
-		131D1C701532BCFA007479F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13AF0D2F152EBB6F00949887 /* UIKit.framework */; };
 		13AF0BDB152EB7A600949887 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13AF0BDA152EB7A600949887 /* Foundation.framework */; };
 		13AF0BE1152EB7A600949887 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 13AF0BDF152EB7A600949887 /* InfoPlist.strings */; };
-		13AF0BEA152EB7A600949887 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13AF0BE9152EB7A600949887 /* SenTestingKit.framework */; };
-		13AF0BED152EB7A600949887 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13AF0BDA152EB7A600949887 /* Foundation.framework */; };
-		13AF0BF2152EB7A600949887 /* KML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13AF0BD7152EB7A600949887 /* KML.framework */; };
-		13AF0BF9152EB7A600949887 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 13AF0BF7152EB7A600949887 /* InfoPlist.strings */; };
-		13AF0BFC152EB7A600949887 /* KMLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AF0BFB152EB7A600949887 /* KMLTests.m */; };
 		13AF0C93152EB7C400949887 /* KML.h in Headers */ = {isa = PBXBuildFile; fileRef = 13AF0C05152EB7C400949887 /* KML.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		13AF0C94152EB7C400949887 /* KMLAbstractColorStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 13AF0C06152EB7C400949887 /* KMLAbstractColorStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		13AF0C95152EB7C400949887 /* KMLAbstractColorStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AF0C07152EB7C400949887 /* KMLAbstractColorStyle.m */; };
@@ -160,39 +152,26 @@
 		13AF0D1F152EB7C400949887 /* KMLXML.h in Headers */ = {isa = PBXBuildFile; fileRef = 13AF0C91152EB7C400949887 /* KMLXML.h */; };
 		13AF0D20152EB7C400949887 /* KMLXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AF0C92152EB7C400949887 /* KMLXML.m */; };
 		13AF0D30152EBB6F00949887 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13AF0D2F152EBB6F00949887 /* UIKit.framework */; };
+		601AFEE121AE3247001C3A1A /* KMLGXTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = 601AFEDF21AE3247001C3A1A /* KMLGXTrack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		601AFEE221AE3247001C3A1A /* KMLGXTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 601AFEE021AE3247001C3A1A /* KMLGXTrack.m */; };
+		608F3BD221AF82A60069AEC1 /* KMLGXCoordinate.h in Headers */ = {isa = PBXBuildFile; fileRef = 608F3BD021AF82A60069AEC1 /* KMLGXCoordinate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		608F3BD321AF82A60069AEC1 /* KMLGXCoordinate.m in Sources */ = {isa = PBXBuildFile; fileRef = 608F3BD121AF82A60069AEC1 /* KMLGXCoordinate.m */; };
+		608F3BD621AF8B850069AEC1 /* KMLWhen.h in Headers */ = {isa = PBXBuildFile; fileRef = 608F3BD421AF8B850069AEC1 /* KMLWhen.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		608F3BD721AF8B850069AEC1 /* KMLWhen.m in Sources */ = {isa = PBXBuildFile; fileRef = 608F3BD521AF8B850069AEC1 /* KMLWhen.m */; };
+		608F3BEF21AF94890069AEC1 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608F3BEE21AF94890069AEC1 /* Test.swift */; };
+		608F3BF821AF95AD0069AEC1 /* KML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13AF0BD7152EB7A600949887 /* KML.framework */; };
+		608F3BFB21AFD6CF0069AEC1 /* KMLGXMultiTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = 608F3BF921AFD6CF0069AEC1 /* KMLGXMultiTrack.h */; };
+		608F3BFC21AFD6CF0069AEC1 /* KMLGXMultiTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 608F3BFA21AFD6CF0069AEC1 /* KMLGXMultiTrack.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		13AF0BEE152EB7A600949887 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 13AF0BCA152EB7A600949887 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 13AF0BD6152EB7A600949887;
-			remoteInfo = KML;
-		};
-		13AF0BF0152EB7A600949887 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 13AF0BCA152EB7A600949887 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 13AF0BD6152EB7A600949887;
-			remoteInfo = KML;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		131D1C581532B900007479F1 /* KML_Samples.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = KML_Samples.kml; sourceTree = "<group>"; };
 		131D1C6E1532BCDB007479F1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		13AF0BD7152EB7A600949887 /* KML.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework.static; includeInIndex = 0; path = KML.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		13AF0BDA152EB7A600949887 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		13AF0BDE152EB7A600949887 /* KML-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KML-Info.plist"; sourceTree = "<group>"; };
 		13AF0BE0152EB7A600949887 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		13AF0BE2152EB7A600949887 /* KML-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KML-Prefix.pch"; sourceTree = "<group>"; };
-		13AF0BE8152EB7A600949887 /* KMLTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KMLTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		13AF0BE9152EB7A600949887 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		13AF0BF6152EB7A600949887 /* KMLTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KMLTests-Info.plist"; sourceTree = "<group>"; };
-		13AF0BF8152EB7A600949887 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		13AF0BFA152EB7A600949887 /* KMLTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KMLTests.h; sourceTree = "<group>"; };
-		13AF0BFB152EB7A600949887 /* KMLTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KMLTests.m; sourceTree = "<group>"; };
 		13AF0C05152EB7C400949887 /* KML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KML.h; sourceTree = "<group>"; };
 		13AF0C06152EB7C400949887 /* KMLAbstractColorStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMLAbstractColorStyle.h; sourceTree = "<group>"; };
 		13AF0C07152EB7C400949887 /* KMLAbstractColorStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMLAbstractColorStyle.m; sourceTree = "<group>"; };
@@ -336,6 +315,18 @@
 		13AF0C91152EB7C400949887 /* KMLXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMLXML.h; sourceTree = "<group>"; };
 		13AF0C92152EB7C400949887 /* KMLXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMLXML.m; sourceTree = "<group>"; };
 		13AF0D2F152EBB6F00949887 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		601AFEDF21AE3247001C3A1A /* KMLGXTrack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KMLGXTrack.h; sourceTree = "<group>"; };
+		601AFEE021AE3247001C3A1A /* KMLGXTrack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KMLGXTrack.m; sourceTree = "<group>"; };
+		608F3BD021AF82A60069AEC1 /* KMLGXCoordinate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KMLGXCoordinate.h; sourceTree = "<group>"; };
+		608F3BD121AF82A60069AEC1 /* KMLGXCoordinate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KMLGXCoordinate.m; sourceTree = "<group>"; };
+		608F3BD421AF8B850069AEC1 /* KMLWhen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KMLWhen.h; sourceTree = "<group>"; };
+		608F3BD521AF8B850069AEC1 /* KMLWhen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KMLWhen.m; sourceTree = "<group>"; };
+		608F3BEC21AF94890069AEC1 /* Test.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Test.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		608F3BEE21AF94890069AEC1 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		608F3BF021AF94890069AEC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		608F3BF421AF94A00069AEC1 /* Test-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Test-Bridging-Header.h"; sourceTree = "<group>"; };
+		608F3BF921AFD6CF0069AEC1 /* KMLGXMultiTrack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KMLGXMultiTrack.h; sourceTree = "<group>"; };
+		608F3BFA21AFD6CF0069AEC1 /* KMLGXMultiTrack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KMLGXMultiTrack.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -348,15 +339,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		13AF0BE4152EB7A600949887 /* Frameworks */ = {
+		608F3BE921AF94890069AEC1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13AF0BEA152EB7A600949887 /* SenTestingKit.framework in Frameworks */,
-				131D1C6F1532BCDB007479F1 /* CoreGraphics.framework in Frameworks */,
-				131D1C701532BCFA007479F1 /* UIKit.framework in Frameworks */,
-				13AF0BED152EB7A600949887 /* Foundation.framework in Frameworks */,
-				13AF0BF2152EB7A600949887 /* KML.framework in Frameworks */,
+				608F3BF821AF95AD0069AEC1 /* KML.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,7 +354,7 @@
 			isa = PBXGroup;
 			children = (
 				13AF0BDC152EB7A600949887 /* KML */,
-				13AF0BF4152EB7A600949887 /* KMLTests */,
+				608F3BED21AF94890069AEC1 /* Test */,
 				13AF0BD9152EB7A600949887 /* Frameworks */,
 				13AF0BD8152EB7A600949887 /* Products */,
 			);
@@ -377,7 +364,7 @@
 			isa = PBXGroup;
 			children = (
 				13AF0BD7152EB7A600949887 /* KML.framework */,
-				13AF0BE8152EB7A600949887 /* KMLTests.octest */,
+				608F3BEC21AF94890069AEC1 /* Test.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -417,26 +404,6 @@
 				13AF0BDE152EB7A600949887 /* KML-Info.plist */,
 				13AF0BDF152EB7A600949887 /* InfoPlist.strings */,
 				13AF0BE2152EB7A600949887 /* KML-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		13AF0BF4152EB7A600949887 /* KMLTests */ = {
-			isa = PBXGroup;
-			children = (
-				13AF0BFA152EB7A600949887 /* KMLTests.h */,
-				13AF0BFB152EB7A600949887 /* KMLTests.m */,
-				131D1C581532B900007479F1 /* KML_Samples.kml */,
-				13AF0BF5152EB7A600949887 /* Supporting Files */,
-			);
-			path = KMLTests;
-			sourceTree = "<group>";
-		};
-		13AF0BF5152EB7A600949887 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				13AF0BF6152EB7A600949887 /* KMLTests-Info.plist */,
-				13AF0BF7152EB7A600949887 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -490,6 +457,10 @@
 				13AF0C8E152EB7C400949887 /* KMLVec2.m */,
 				13AF0C24152EB7C400949887 /* KMLCoordinate.h */,
 				13AF0C25152EB7C400949887 /* KMLCoordinate.m */,
+				608F3BD021AF82A60069AEC1 /* KMLGXCoordinate.h */,
+				608F3BD121AF82A60069AEC1 /* KMLGXCoordinate.m */,
+				608F3BD421AF8B850069AEC1 /* KMLWhen.h */,
+				608F3BD521AF8B850069AEC1 /* KMLWhen.m */,
 			);
 			name = Element;
 			sourceTree = "<group>";
@@ -589,6 +560,10 @@
 				13AF0C5A152EB7C400949887 /* KMLMultiGeometry.m */,
 				13AF0C57152EB7C400949887 /* KMLModel.h */,
 				13AF0C58152EB7C400949887 /* KMLModel.m */,
+				601AFEDF21AE3247001C3A1A /* KMLGXTrack.h */,
+				601AFEE021AE3247001C3A1A /* KMLGXTrack.m */,
+				608F3BF921AFD6CF0069AEC1 /* KMLGXMultiTrack.h */,
+				608F3BFA21AFD6CF0069AEC1 /* KMLGXMultiTrack.m */,
 			);
 			name = Geometry;
 			sourceTree = "<group>";
@@ -661,6 +636,16 @@
 			name = AbstractView;
 			sourceTree = "<group>";
 		};
+		608F3BED21AF94890069AEC1 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				608F3BEE21AF94890069AEC1 /* Test.swift */,
+				608F3BF021AF94890069AEC1 /* Info.plist */,
+				608F3BF421AF94A00069AEC1 /* Test-Bridging-Header.h */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -722,6 +707,7 @@
 				13AF0CF9152EB7C400949887 /* KMLPolygon.h in Headers */,
 				13AF0CFB152EB7C400949887 /* KMLPolyStyle.h in Headers */,
 				13AF0CFD152EB7C400949887 /* KMLRegion.h in Headers */,
+				608F3BFB21AFD6CF0069AEC1 /* KMLGXMultiTrack.h in Headers */,
 				13AF0CFF152EB7C400949887 /* KMLResourceMap.h in Headers */,
 				13AF0D01152EB7C400949887 /* KMLRoot.h in Headers */,
 				13AF0D03152EB7C400949887 /* KMLScale.h in Headers */,
@@ -738,6 +724,9 @@
 				13AF0D19152EB7C400949887 /* KMLUpdate.h in Headers */,
 				13AF0D1B152EB7C400949887 /* KMLVec2.h in Headers */,
 				13AF0D1D152EB7C400949887 /* KMLViewVolume.h in Headers */,
+				608F3BD221AF82A60069AEC1 /* KMLGXCoordinate.h in Headers */,
+				608F3BD621AF8B850069AEC1 /* KMLWhen.h in Headers */,
+				601AFEE121AE3247001C3A1A /* KMLGXTrack.h in Headers */,
 				13AF0CBE152EB7C400949887 /* KMLElementSubclass.h in Headers */,
 				13AF0D1F152EB7C400949887 /* KMLXML.h in Headers */,
 			);
@@ -750,13 +739,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13AF0BFF152EB7A600949887 /* Build configuration list for PBXNativeTarget "KML" */;
 			buildPhases = (
-				13AF0BCF152EB7A600949887 /* ShellScript */,
 				13AF0BD0152EB7A600949887 /* Sources */,
 				13AF0BD1152EB7A600949887 /* Frameworks */,
 				13AF0BD2152EB7A600949887 /* Headers */,
 				13AF0BD3152EB7A600949887 /* Resources */,
-				13AF0BD4152EB7A600949887 /* ShellScript */,
-				13AF0BD5152EB7A600949887 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -767,25 +753,22 @@
 			productReference = 13AF0BD7152EB7A600949887 /* KML.framework */;
 			productType = "com.apple.product-type.framework.static";
 		};
-		13AF0BE7152EB7A600949887 /* KMLTests */ = {
+		608F3BEB21AF94890069AEC1 /* Test */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13AF0C02152EB7A600949887 /* Build configuration list for PBXNativeTarget "KMLTests" */;
+			buildConfigurationList = 608F3BF121AF94890069AEC1 /* Build configuration list for PBXNativeTarget "Test" */;
 			buildPhases = (
-				13AF0BE3152EB7A600949887 /* Sources */,
-				13AF0BE4152EB7A600949887 /* Frameworks */,
-				13AF0BE5152EB7A600949887 /* Resources */,
-				13AF0BE6152EB7A600949887 /* ShellScript */,
+				608F3BE821AF94890069AEC1 /* Sources */,
+				608F3BE921AF94890069AEC1 /* Frameworks */,
+				608F3BEA21AF94890069AEC1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				13AF0BEF152EB7A600949887 /* PBXTargetDependency */,
-				13AF0BF1152EB7A600949887 /* PBXTargetDependency */,
 			);
-			name = KMLTests;
-			productName = KMLTests;
-			productReference = 13AF0BE8152EB7A600949887 /* KMLTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			name = Test;
+			productName = Test;
+			productReference = 608F3BEC21AF94890069AEC1 /* Test.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -793,7 +776,16 @@
 		13AF0BCA152EB7A600949887 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0430;
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				TargetAttributes = {
+					608F3BEB21AF94890069AEC1 = {
+						CreatedOnToolsVersion = 10.1;
+						DevelopmentTeam = 6S22LH9287;
+						LastSwiftMigration = 1010;
+						ProvisioningStyle = Automatic;
+					};
+				};
 			};
 			buildConfigurationList = 13AF0BCD152EB7A600949887 /* Build configuration list for PBXProject "KML" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -808,7 +800,7 @@
 			projectRoot = "";
 			targets = (
 				13AF0BD6152EB7A600949887 /* KML */,
-				13AF0BE7152EB7A600949887 /* KMLTests */,
+				608F3BEB21AF94890069AEC1 /* Test */,
 			);
 		};
 /* End PBXProject section */
@@ -822,71 +814,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		13AF0BE5152EB7A600949887 /* Resources */ = {
+		608F3BEA21AF94890069AEC1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13AF0BF9152EB7A600949887 /* InfoPlist.strings in Resources */,
-				131D1C591532B900007479F1 /* KML_Samples.kml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		13AF0BCF152EB7A600949887 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "set -e\n\nset +u\nif [[ $UFW_MASTER_SCRIPT_RUNNING ]]\nthen\n    # Nothing for the slave script to do\n    exit 0\nfi\nset -u\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\n    UFW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find platform name from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\n\tUFW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find sdk version  from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$UFW_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\n    UFW_OTHER_PLATFORM=iphonesimulator\nelse\n    UFW_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$UFW_SDK_PLATFORM$ ]]\nthen\n    UFW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${UFW_OTHER_PLATFORM}\"\nelse\n    echo \"Could not find $UFW_SDK_PLATFORM in $BUILT_PRODUCTS_DIR\"\n    exit 1\nfi\n\nONLY_ACTIVE_PLATFORM=${ONLY_ACTIVE_PLATFORM:-$ONLY_ACTIVE_ARCH}\n\n# Short-circuit if all binaries are up to date\n\nif [[ -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && \\\n   [[ -f \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && \\\n   [[ ! \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && \\\n  ([[ \"${ONLY_ACTIVE_PLATFORM}\" == \"YES\" ]] || \\\n    ([[ -f \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && \\\n     [[ -f \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && \\\n     [[ ! \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]]\n    )\n  )\nthen\n    exit 0\nfi\n\n\n# Clean other platform if needed\n\nif [[ ! -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && [[ \"${ONLY_ACTIVE_PLATFORM}\" != \"YES\" ]]\nthen\n\techo \"Platform \\\"$UFW_SDK_PLATFORM\\\" was cleaned recently. Cleaning \\\"$UFW_OTHER_PLATFORM\\\" as well\"\n\techo xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" clean\n\txcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" clean\nfi\n\n\n# Make sure we are building from fresh binaries\n\nrm -rf \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\nrm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\n\nif [[ \"${ONLY_ACTIVE_PLATFORM}\" != \"YES\" ]]\nthen\n    rm -rf \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\n    rm -rf \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\nfi\n";
-		};
-		13AF0BD4152EB7A600949887 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "HEADERS_ROOT=$SRCROOT/$PRODUCT_NAME\nFRAMEWORK_HEADERS_DIR=\"$BUILT_PRODUCTS_DIR/$WRAPPER_NAME/Versions/$FRAMEWORK_VERSION/Headers\"\n\n## only header files expected at this point\nPUBLIC_HEADERS=$(find $FRAMEWORK_HEADERS_DIR/. -not -type d 2> /dev/null | sed -e \"s@.*/@@g\")\n\nFIND_OPTS=\"\"\nfor PUBLIC_HEADER in $PUBLIC_HEADERS; do\n  if [ -n \"$FIND_OPTS\" ]; then\n    FIND_OPTS=\"$FIND_OPTS -o\"\n  fi\n  FIND_OPTS=\"$FIND_OPTS -name '$PUBLIC_HEADER'\"\ndone\n\nif [ -n \"$FIND_OPTS\" ]; then\n  for ORIG_HEADER in $(eval \"find $HEADERS_ROOT/. $FIND_OPTS\" 2> /dev/null | sed -e \"s@^$HEADERS_ROOT/./@@g\"); do\n    PUBLIC_HEADER=$(basename $ORIG_HEADER)\n    RELATIVE_PATH=$(dirname $ORIG_HEADER)\n    if [ -e $FRAMEWORK_HEADERS_DIR/$PUBLIC_HEADER ]; then\n      mkdir -p \"$FRAMEWORK_HEADERS_DIR/$RELATIVE_PATH\"\n      mv \"$FRAMEWORK_HEADERS_DIR/$PUBLIC_HEADER\" \"$FRAMEWORK_HEADERS_DIR/$RELATIVE_PATH/$PUBLIC_HEADER\"\n    fi\n  done\nfi\n";
-		};
-		13AF0BD5152EB7A600949887 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "set -e\n\nset +u\nif [[ $UFW_MASTER_SCRIPT_RUNNING ]]\nthen\n    # Nothing for the slave script to do\n    exit 0\nfi\nset -u\nexport UFW_MASTER_SCRIPT_RUNNING=1\n\n\n# Functions\n\n## List files in the specified directory, storing to the specified array.\n#\n# @param $1 The path to list\n# @param $2 The name of the array to fill\n#\n##\nlist_files ()\n{\n    filelist=$(ls \"$1\")\n    while read line\n    do\n        eval \"$2[\\${#$2[*]}]=\\\"\\$line\\\"\"\n    done <<< \"$filelist\"\n}\n\n\n# Sanity check\n\nif [[ ! -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]]\nthen\n    echo \"Framework target \\\"${TARGET_NAME}\\\" had no source files to build from. Make sure your source files have the correct target membership\"\n    exit 1\nfi\n\n\n# Gather information\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\n    UFW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find platform name from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\n    UFW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$UFW_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\n    UFW_OTHER_PLATFORM=iphonesimulator\nelse\n    UFW_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$UFW_SDK_PLATFORM$ ]]\nthen\n    UFW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${UFW_OTHER_PLATFORM}\"\nelse\n    echo \"Could not find $UFW_SDK_PLATFORM in $BUILT_PRODUCTS_DIR\"\n    exit 1\nfi\n\nONLY_ACTIVE_PLATFORM=${ONLY_ACTIVE_PLATFORM:-$ONLY_ACTIVE_ARCH}\n\n# Short-circuit if all binaries are up to date.\n# We already checked the other platform in the prerun script.\n\nif [[ -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && [[ -f \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && [[ ! \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]]\nthen\n    exit 0\nfi\n\nif [ \"${ONLY_ACTIVE_PLATFORM}\" == \"YES\" ]\nthen\n    echo \"ONLY_ACTIVE_PLATFORM=${ONLY_ACTIVE_PLATFORM}: Skipping other platform build\"\nelse\n    # Make sure the other platform gets built\n    \n    echo \"Build other platform\"\n    \n    echo xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" $ACTION\n    xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" $ACTION\n    \n    \n    # Build the fat static library binary\n    \n    echo \"Create universal static library\"\n    \n    echo \"$PLATFORM_DEVELOPER_BIN_DIR/libtool\" -static \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -o \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\"\n    \"$PLATFORM_DEVELOPER_BIN_DIR/libtool\" -static \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -o \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\"\n    \n    echo mv \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\" \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\n    mv \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\" \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\nfi\n\n# Build embedded framework structure\n\necho \"Build Embedded Framework\"\n\necho rm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\nrm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\necho mkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources\"\nmkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources\"\necho cp -a \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/\"\ncp -a \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/\"\n\ndeclare -a UFW_FILE_LIST\nlist_files \"${BUILT_PRODUCTS_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}\" UFW_FILE_LIST\nfor filename in \"${UFW_FILE_LIST[@]}\"\ndo\n    if [[ \"${filename}\" != \"Info.plist\" ]] && [[ ! \"${filename}\" =~ .*\\.lproj$ ]]\n    then\n        echo ln -sfh \"../${WRAPPER_NAME}/Resources/${filename}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources/${filename}\"\n        ln -sfh \"../${WRAPPER_NAME}/Resources/${filename}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources/${filename}\"\n    fi\ndone\n\n\nif [ \"${ONLY_ACTIVE_PLATFORM}\" != \"YES\" ]\nthen\n    # Replace other platform's framework with a copy of this one (so that both have the same universal binary)\n    \n    echo \"Copy from $UFW_SDK_PLATFORM to $UFW_OTHER_PLATFORM\"\n    \n    echo rm -rf \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\n    rm -rf \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\n    echo cp -a \"${BUILD_DIR}/${CONFIGURATION}-${UFW_SDK_PLATFORM}\" \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\n    cp -a \"${BUILD_DIR}/${CONFIGURATION}-${UFW_SDK_PLATFORM}\" \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\nfi\n";
-		};
-		13AF0BE6152EB7A600949887 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		13AF0BD0152EB7A600949887 /* Sources */ = {
@@ -902,6 +837,7 @@
 				13AF0CA1152EB7C400949887 /* KMLAbstractStyleSelector.m in Sources */,
 				13AF0CA3152EB7C400949887 /* KMLAbstractSubStyle.m in Sources */,
 				13AF0CA5152EB7C400949887 /* KMLAbstractTimePrimitive.m in Sources */,
+				608F3BFC21AFD6CF0069AEC1 /* KMLGXMultiTrack.m in Sources */,
 				13AF0CA7152EB7C400949887 /* KMLAbstractView.m in Sources */,
 				13AF0CA9152EB7C400949887 /* KMLAlias.m in Sources */,
 				13AF0CAB152EB7C400949887 /* KMLBalloonStyle.m in Sources */,
@@ -931,6 +867,8 @@
 				13AF0CDC152EB7C400949887 /* KMLListStyle.m in Sources */,
 				13AF0CDE152EB7C400949887 /* KMLLocation.m in Sources */,
 				13AF0CE0152EB7C400949887 /* KMLLod.m in Sources */,
+				608F3BD321AF82A60069AEC1 /* KMLGXCoordinate.m in Sources */,
+				601AFEE221AE3247001C3A1A /* KMLGXTrack.m in Sources */,
 				13AF0CE2152EB7C400949887 /* KMLLookAt.m in Sources */,
 				13AF0CE4152EB7C400949887 /* KMLMetadata.m in Sources */,
 				13AF0CE6152EB7C400949887 /* KMLModel.m in Sources */,
@@ -942,6 +880,7 @@
 				13AF0CF2152EB7C400949887 /* KMLParser.m in Sources */,
 				13AF0CF4152EB7C400949887 /* KMLPhotoOverlay.m in Sources */,
 				13AF0CF6152EB7C400949887 /* KMLPlacemark.m in Sources */,
+				608F3BD721AF8B850069AEC1 /* KMLWhen.m in Sources */,
 				13AF0CF8152EB7C400949887 /* KMLPoint.m in Sources */,
 				13AF0CFA152EB7C400949887 /* KMLPolygon.m in Sources */,
 				13AF0CFC152EB7C400949887 /* KMLPolyStyle.m in Sources */,
@@ -966,42 +905,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		13AF0BE3152EB7A600949887 /* Sources */ = {
+		608F3BE821AF94890069AEC1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13AF0BFC152EB7A600949887 /* KMLTests.m in Sources */,
+				608F3BEF21AF94890069AEC1 /* Test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		13AF0BEF152EB7A600949887 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 13AF0BD6152EB7A600949887 /* KML */;
-			targetProxy = 13AF0BEE152EB7A600949887 /* PBXContainerItemProxy */;
-		};
-		13AF0BF1152EB7A600949887 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 13AF0BD6152EB7A600949887 /* KML */;
-			targetProxy = 13AF0BF0152EB7A600949887 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		13AF0BDF152EB7A600949887 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				13AF0BE0152EB7A600949887 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		13AF0BF7152EB7A600949887 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				13AF0BF8152EB7A600949887 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -1013,11 +931,30 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -1025,10 +962,14 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -1037,15 +978,36 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -1054,16 +1016,15 @@
 		13AF0C00152EB7A600949887 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					armv6,
-					"$(ARCHS_STANDARD_32_BIT)",
-				);
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KML/KML-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
 				INFOPLIST_FILE = "KML/KML-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nextbusinesssystem.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = framework;
@@ -1073,49 +1034,88 @@
 		13AF0C01152EB7A600949887 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					armv6,
-					"$(ARCHS_STANDARD_32_BIT)",
-				);
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KML/KML-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
 				INFOPLIST_FILE = "KML/KML-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nextbusinesssystem.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;
 		};
-		13AF0C03152EB7A600949887 /* Debug */ = {
+		608F3BF221AF94890069AEC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "KML/KML-Prefix.pch";
-				INFOPLIST_FILE = "KMLTests/KMLTests-Info.plist";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 6S22LH9287;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = Test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.onelcat.Test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = octest;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "Test/Test-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		13AF0C04152EB7A600949887 /* Release */ = {
+		608F3BF321AF94890069AEC1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "KML/KML-Prefix.pch";
-				INFOPLIST_FILE = "KMLTests/KMLTests-Info.plist";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 6S22LH9287;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = Test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.onelcat.Test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = octest;
+				SWIFT_OBJC_BRIDGING_HEADER = "Test/Test-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -1140,11 +1140,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13AF0C02152EB7A600949887 /* Build configuration list for PBXNativeTarget "KMLTests" */ = {
+		608F3BF121AF94890069AEC1 /* Build configuration list for PBXNativeTarget "Test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				13AF0C03152EB7A600949887 /* Debug */,
-				13AF0C04152EB7A600949887 /* Release */,
+				608F3BF221AF94890069AEC1 /* Debug */,
+				608F3BF321AF94890069AEC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
